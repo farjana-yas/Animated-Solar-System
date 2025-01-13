@@ -29,6 +29,7 @@
     position: relative;
     background-position: center;
     animation: earth-orbit 7s linear infinite;
+    box-shadow: 0 0 75px  rgb(48, 171, 242);
 }
 
 .earth::after{
@@ -42,7 +43,7 @@
     background-position: center;
     align-items: center;
     animation: moon-orbit 3.5s linear infinite;
-
+    box-shadow: 0 0 45px  white;
 }
 @keyframes  earth-orbit{
     from{
